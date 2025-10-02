@@ -1,0 +1,21 @@
+一個專案對應一個repository
+staged area類似暫存區
+git add . = git add -A (兩個都是提交全部檔案到staging area的意思)
+git commit -m (committing the file to repo, -m means with message.)
+
+reg git push, a destination is required (usaully ur github repo)
+git remote add <name> <url>
+
+<url>: url of the remote repo u r pushing into
+<name>: just an alias of the remote repo.
+
+by setting the name you want have to type in the url everytime. cuz a name has been given to the remote repo now.
+
+=> git push <name>
+
+
+
+
+
+
+
