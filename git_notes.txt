@@ -13,6 +13,32 @@ by setting the name you want have to type in the url everytime. cuz a name has b
 
 => git push <name>
 
+when cloning from remote repo,          
+
+Remote Repository (GitHub)
+          -----------------------
+          URL: https://github.com/xzhen719/test-1002-01.git
+          Remote name: origin (automatically sets "origin" as default name)
+                 ▲
+                 │  git push / git pull
+                 │
+Local Repository (Your Computer)
+-------------------------------
+Folder name: test-1002-01   <-- this is your "local repo name"
+.git/ folder: stores all Git info (commits, branches, remotes, etc.)
+Current branch: main        <-- where you make commits
+
+
+
+Workflow Example:
+1. Edit files in your local repo
+2. git add <files>
+3. git commit -m "message"
+4. git push origin main     <-- send changes to remote
+5. git pull origin main     <-- get new changes from remote
+
+
+
 
 
 
